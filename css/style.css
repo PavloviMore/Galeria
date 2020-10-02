@@ -2,20 +2,28 @@
     box-sizing: border-box;
 }
 
-.tenor-gif-embed{
-    height: 350px;
+body{
+    background: grey;;
+}
+
+img{
+   height: 350px;
+   width: 100%;
+   border-radius: 25px;
 }
 
 .galeria{
-    border: 5px solid rgba(0,0,0,0.5);
-    padding: 5px;
+    background: url("../img/letöltés.jpg");
+    top: auto;
     background: white;
     max-width: 800px;
     margin: 40px auto;
     position: relative;
+    box-shadow: 13px 11px 26px -1px rgba(0,0,0,0.81);
+    border-radius: 25px;
 }
 
-.contaniner{
+.container{
     position: absolute;
     bottom:1em;
     left: 0%;
@@ -24,18 +32,52 @@
     font-size: 1.5rem;
 }
 
-.left:hover,.right:hover{
-    color: rgba(0,0,0,0.5);
+.container p,.container h3{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+
 }
 
-.left:hover,.right:hover{
-    color: rgba(0,0,0,0.5);
+.kör{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    top: 5%;
+}
+.kör a{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.first{
+    color: white;
 }
 
-.left{
-    float: left;
+.kör a:hover{
+    color: white;
+    cursor: pointer;
 }
 
-.right{
-    float: right;
+
+.left-link,.right-link{
+    position: absolute;
+    top: 40%;
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+}
+.left-link a, .right-link a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding:20px;
+}
+.left-link a:hover, .right-link a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.left-link{
+    left: 0;
+}
+.right-link{
+    right: 0;
 }
