@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.tenor-gif-embed{
+    height: 350px;
+}
+
+.galeria{
+    border: 5px solid rgba(0,0,0,0.5);
+    padding: 5px;
+    background: white;
+    max-width: 800px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.contaniner{
+    position: absolute;
+    bottom:1em;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.left:hover,.right:hover{
+    color: rgba(0,0,0,0.5);
+}
+
+.left:hover,.right:hover{
+    color: rgba(0,0,0,0.5);
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
