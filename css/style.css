@@ -3,24 +3,19 @@
 }
 
 body{
-    background: grey;;
+    background: grey;
 }
 
 img{
-   height: 350px;
    width: 100%;
    border-radius: 25px;
+   box-shadow: 13px 11px 26px -1px rgba(0,0,0,0.81);
 }
 
 .galeria{
-    background: url("../img/letöltés.jpg");
-    top: auto;
-    background: white;
     max-width: 800px;
-    margin: 40px auto;
+    margin: auto;
     position: relative;
-    box-shadow: 13px 11px 26px -1px rgba(0,0,0,0.81);
-    border-radius: 25px;
 }
 
 .container{
@@ -32,19 +27,18 @@ img{
     font-size: 1.5rem;
 }
 
-.container p,.container h3{
+.container span{
+    text-align: center;
     background: rgba(255, 255, 255, 0.5);
     padding: 5px;
-    border-radius: 5px;
-    position: center;
-    width: fit-content;
+    border-radius: 10px;
 }
 
 .kör{
     position: absolute;
+    text-align: center;
     top: 0;
-    left: 50%;
-    top: 5%;
+    left: 45%;
 }
 .kör a{
     font-size: 2rem;
@@ -52,7 +46,7 @@ img{
     text-decoration: none;
 }
 
-.first{
+.first a{
     color: white;
 }
 
